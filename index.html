@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohit Portfolio website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Update with your own fonts -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+
+    <div id="preloader">
+        <div id="status">&nbsp;</div>
+    </div>
+
+    <div class = "top-header"></div>
+    <header>
+        <div class="logo">
+            <!-- <img src="img/cropLogo_Mohit.png" alt="Mohit"> -->
+            <h2 class="my__name--header">Mohit.</h2>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#my-education" class="nav__link">My Education</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">My Skills</a></li>
+                    <li class="nav__item"><a href="#portfolio" class="nav__link">My Work</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact me</a></li>
+                </ul>
+        </nav>
+    </header>
+    <!-- Introduction -->
+    <section class="intro reveal" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Mohit Jaiswal</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Web Developer</p>
+        <img src="img/Mypic2.png" alt="A picture of Mohit Jaiswal" class="intro__img">
+        <div class="submit-btn1 resume">
+            <a href="https://rb.gy/dc6bvc" class="main-btn" target="_blank">
+                <span class="btn-text"><abbr title="Download Resume">Download CV</abbr></span>
+                <span class="btn-icon"><i class="fas fa-download"></i></span>
+            </a>
+        </div>
+        <!-- <div class="submit-btn">
+            <a href="#" class="main-btn">
+                <span class="btn-text">Contact Me</span>
+                <span class="btn-icon"><i class="fa-solid fa-message-arrow-down"></i></span>
+            </a> 
+        </div>-->
+        <a href="#about">
+            <div class="arrow-down">
+                <div class="left"></div>
+                <div class="right"></div>
+            </div>
+        </a>
+        
+    </section>
+
+
+
+
+    <!-- My services -->
+
+    <!-- <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Backend Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pellentesque purus ipsum, 
+                    et vehicula sem feugiat ac. Donec rhoncus, enim vel dictum sagittis, magna eros scelerisque ipsum, 
+                    vel dictum velit nunc ut diam. Etiam ultricies sed neque at laoreet. Sed facilisis et ipsum sed 
+                    imperdiet. </p>
+            </div>  
+            <div class="service">
+                <h3>Web Devlopment</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pellentesque purus ipsum, 
+                    et vehicula sem feugiat ac. Donec rhoncus, enim vel dictum sagittis, magna eros scelerisque ipsum, 
+                    vel dictum velit nunc ut diam. Etiam ultricies sed neque at laoreet. Sed facilisis et ipsum sed 
+                    imperdiet.</p>
+            </div>  
+            <div class="service">
+                <h3>Frontend Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pellentesque purus ipsum, 
+                    et vehicula sem feugiat ac. Donec rhoncus, enim vel dictum sagittis, magna eros scelerisque ipsum, 
+                    vel dictum velit nunc ut diam. Etiam ultricies sed neque at laoreet. Sed facilisis et ipsum sed 
+                    imperdiet.</p>
+            </div>  
+        </div> 
+        <a href="#contact" class="btn">Hire Me</a>
+    </section> -->
+
+<!-- end my services -->
+
+
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Web Developer | C++ Developer</p>
+
+        <div class="about-me__body">
+            <p>Hi, I'm a C++ Developer, Competitive Programmer, a Technical Writer, and an Open Source Enthusiast 
+                who is highly passionate about building fast, creative applications and writing beautiful code.</p>
+            <p >Web Performance and Refactoring are my areas of interest and I've been working to enhance my skills.
+                Also, I'm loves to build and design Experiences which make peoples life easy</p>
+                
+            <!-- <p>An independent and self-motivated graduate (Fresher).
+                Seeking a challenging position in a reputable organization to
+                expand and utilize my learning, skills and knowledge.
+                Interested in learning new things and know the link between
+                theoretical and practical knowledge.</p> -->
+            <p class="reveal">I am an ambitious and hardworking individual, with broad skills and experience in frontend and backend development, 
+                and leading projects.
+                Furthermore, I am adept at handling multiple tasks on a daily basis competently and at working well under pressure.
+                A key strength is communication; building strong relationships with people in order to deliver the best results.
+                Recently, I completed an Bachelor of Technology, Computer Science Engineering .</p>
+        </div>
+        <img src="img/My_Pic6.jpg" alt="" class="about-me__img reveal">
+    </section>
+
+
+<!-- End education-block -->
+<section class="my-education reveal" id="my-education">
+    <div id="education">
+        <h2 class="education__heading--header">Education</h2>
+        <div class="education-block reveal">
+            <h3>Dr. A.P.J. ABDUL KALAM TECHNICAL UNIVERSITY</h3>
+            <span class="education-date">July 2018 - July 2022</span>
+            <h4>Bachelor of Technology in Computer Science Engineering</h4>
+            <ul>
+                
+                <li>
+                    Grade: 79%
+                </li>
+                <li>
+                    Live Backlog: 0
+                </li>
+                <!-- <li>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </li> -->
+            </ul>
+        </div>
+        
+
+        <div class="education-block reveal">
+            <h3>BALNIKETAN JR HIGH SCH RAMNA, VARANASI</h3>
+            <span class="education-date">May 2017 - Sept 2018</span>
+            <h4>Intermediate</h4>
+            <ul>
+                <li>
+                    Grade: 72.8%
+                </li>
+                <!-- <li>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </li>
+                <li>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </li> -->
+            </ul>
+        </div>
+        <div class="education-block reveal">
+            <h3>ST. STEPHEN'S SCHOOL, VARANASI</h3>
+            <span class="education-date">May 2015 - May 2016</span>
+            <h4>High School</h4>
+            <ul>
+                <li>
+                    Grade: 77.17%
+                </li>
+                <!-- <li>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </li>
+                <li>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </li> -->
+            </ul>
+        </div>
+        
+    </div>
+</section>
+<!-- End .education-block -->
+
+
+    <!-- My Work -->
+    <!-- <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My Work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p> -->
+
+        <!-- portfolio img 01 -->
+        <!-- <div class="portfolio">
+            <a href="" class="portfolio__item">
+                <img src="img/project5.jfif" alt="" class="portfolio__img">
+            </a> -->
+
+        <!-- portfolio img 02 -->
+            <!-- <a href="#" class="portfolio__item">
+                <img src="img/project9.jfif" alt="" class="portfolio__img">
+            </a> -->
+
+        <!-- portfolio img 03 -->
+            <!-- <a href="#" class="portfolio__item">
+                <img src="img/project5.jfif" alt="" class="portfolio__img">
+            </a> -->
+
+        <!-- portfolio img 04 -->
+            <!-- <a href="#" class="portfolio__item">
+                <img src="img/project9.jfif" alt="" class="portfolio__img">
+            </a> -->
+
+
+        <!-- portfolio img 05 -->
+            <!-- <a href="#" class="portfolio__item">
+                <img src="img/project5.jfif" alt="" class="portfolio__img">
+            </a> -->
+
+
+        <!-- portfolio img 06 -->
+            <!-- <a href="#" class="portfolio__item">
+                <img src="img/project9.jfif" alt="" class="portfolio__img">
+            </a> -->
+
+        <!-- portfolio img 07 -->
+            <!-- <a href="#" class="portfolio__item">
+                <img src="img/project5.jfif" alt="" class="portfolio__img">
+            </a> -->
+
+        <!-- portfolio img 08 -->
+            <!-- <a href="#" class="portfolio__item">
+                <img src="img/project9.jfif" alt="" class="portfolio__img">
+            </a> -->
+
+        <!-- portfolio img 09 -->
+            <!-- <a href="#" class="portfolio__item">
+                <img src="img/project5.jfif" alt="" class="portfolio__img">
+            </a> -->
+
+        <!-- portfolio img 10 -->
+            <!-- <a href="#" class="portfolio__item">
+                <img src="img/project9.jfif" alt="" class="portfolio__img">
+            </a> -->
+
+    <!-- </section> -->
+
+
+
+    <!-- skill section -->
+    <section class="skill" id="skills">
+
+        <div class="about-stats">
+            <h4 class="stat-title">My Skills</h4>
+            <div class="progress-bars">
+                <div class="progress-bar">
+                    <p class="prog-title">HTML5</p>
+                    <div class="progress-con">
+                        <p class="prog-text">85%</p>
+                        <div class="progress">
+                            <span class="cpp"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-bar">
+                    <p class="prog-title">CSS</p>
+                    <div class="progress-con">
+                        <p class="prog-text">80%</p>
+                        <div class="progress">
+                            <span class="css"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-bar reveal">
+                    <p class="prog-title">MySql</p>
+                    <div class="progress-con">
+                        <p class="prog-text">80%</p>
+                        <div class="progress">
+                            <span class="mysql"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-bar reveal">
+                    <p class="prog-title">C++</p>
+                    <div class="progress-con">
+                        <p class="prog-text">80%</p>
+                        <div class="progress">
+                            <span class="cpp"></span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="progress-bar reveal">
+                    <p class="prog-title">Data Structure and Algorithm</p>
+                    <div class="progress-con">
+                        <p class="prog-text">70%</p>
+                        <div class="progress">
+                            <span class="dsa"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-bar reveal">
+                    <p class="prog-title">Javascript</p>
+                    <div class="progress-con">
+                        <p class="prog-text">70%</p>
+                        <div class="progress">
+                            <span class="js"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-bar reveal">
+                    <p class="prog-title">NodeJS</p>
+                    <div class="progress-con">
+                        <p class="prog-text">70%</p>
+                        <div class="progress">
+                            <span class="nodejs"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-bar reveal">
+                    <p class="prog-title">ExpressJS</p>
+                    <div class="progress-con">
+                        <p class="prog-text">70%</p>
+                        <div class="progress">
+                            <span class="expressjs"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-bar reveal">
+                    <p class="prog-title">MongoDB</p>
+                    <div class="progress-con">
+                        <p class="prog-text">70%</p>
+                        <div class="progress">
+                            <span class="mongodb"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-bar reveal">
+                    <p class="prog-title">Postman</p>
+                    <div class="progress-con">
+                        <p class="prog-text">60%</p>
+                        <div class="progress">
+                            <span class="postman"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+
+<!-- my skills end  -->
+
+
+
+<!-- My Portfolio -->
+
+
+
+<section class="container reveal" id="portfolio">
+    <!-- <div class="main-title">
+        <h2><span class="bg-text">My Work</span></h2>
+    </div>
+    <p class="port-text">
+        Here is some of my work that I've done in various programming languages.
+    </p> -->
+    <h2 class="section__title section__title--work bg-text stat-title">My Work</h2>
+    <p class="section__subtitle section__subtitle--work">Here is some of my work that I've done.</p>
+    <div class="portfolios">
+        <div class="portfolio-item reveal">
+            <div class="image">
+                <img src="img/port1.jpg" alt="">
+            </div>
+            <div class="hover-items">
+                <h3>Alumnite Web App</h3>
+                <div class="icons">
+                    <abbr title="Github Link"><a href="#" class="icon">
+                        <i class="fab fa-github"></i>
+                    </a></abbr> 
+                    <abbr title="Demo here"><a href="http://alumnite-recs.herokuapp.com/" target="_blank" class="icon">
+                        <i class="fas fa-2x fa-globe" aria-hidden="true"></i>
+                    </a></abbr> 
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-item reveal">
+            <div class="image">
+                <img src="img/port2.jpg" alt="">
+            </div>
+            <div class="hover-items">
+                <h3>Newsletter Sign-Up</h3>
+                <div class="icons">
+                    <abbr title="Github Link"><a href="#" class="icon">
+                        <i class="fab fa-github"></i>
+                    </a></abbr>
+                    <abbr title="Demo here"><a href="https://mohit-newsletter-signup.herokuapp.com/" target="_blank" class="icon">
+                        <i class="fas fa-2x fa-globe" aria-hidden="true"></i>
+                    </a></abbr> 
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-item reveal">
+            <div class="image">
+                <img src="img/port3.jpg" alt="">
+            </div>
+            <div class="hover-items">
+                <h3>Project Source</h3>
+                <div class="icons">
+                    <abbr title="Github Link"><a href="#" class="icon">
+                        <i class="fab fa-github"></i>
+                    </a></abbr>
+                    <abbr title="Demo here"><a href="#" class="icon">
+                        <i class="fas fa-2x fa-globe" aria-hidden="true"></i>
+                    </a></abbr> 
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-item reveal">
+            <div class="image">
+                <img src="img/port4.jpg" alt="">
+            </div>
+            <div class="hover-items">
+                <h3>Project Source</h3>
+                <div class="icons">
+                    <abbr title="Github Link"><a href="#" class="icon">
+                        <i class="fab fa-github"></i>
+                    </a></abbr>
+                    <abbr title="Demo here"><a href="#" class="icon">
+                        <i class="fas fa-2x fa-globe" aria-hidden="true"></i>
+                    </a></abbr> 
+                    <!-- <a href="#" class="icon">
+                        <i class="fab fa-behance"></i>
+                    </a> -->
+                    <!-- <a href="#" class="icon">
+                        <i class="fab fa-youtube"></i>
+                    </a> -->
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-item reveal">
+            <div class="image">
+                <img src="img/port5.jpg" alt="">
+            </div>
+            <div class="hover-items">
+                <h3>Project Source</h3>
+                <div class="icons">
+                    <abbr title="Github Link"><a href="#" class="icon">
+                        <i class="fab fa-github"></i>
+                    </a></abbr>
+                    <abbr title="Demo here"><a href="#" class="icon">
+                        <i class="fas fa-2x fa-globe" aria-hidden="true"></i>
+                    </a></abbr> 
+                    <!-- <a href="#" class="icon">
+                        <i class="fab fa-behance"></i>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="fab fa-youtube"></i>
+                    </a> -->
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-item reveal">
+            <div class="image">
+                <img src="img/port2.jpg" alt="">
+            </div>
+            <div class="hover-items">
+                <h3>Project Source</h3>
+                <div class="icons">
+                    <abbr title="Github Link"><a href="#" class="icon">
+                        <i class="fab fa-github"></i>
+                    </a></abbr>
+                    <abbr title="Demo here"><a href="#" class="icon">
+                        <i class="fas fa-2x fa-globe" aria-hidden="true"></i>
+                    </a></abbr> 
+                </div>
+            </div>
+        </div>
+        <!-- <div class="portfolio-item">
+            <div class="image">
+                <img src="img/port7.jpg" alt="">
+            </div>
+            <div class="hover-items">
+                <h3>Project Source</h3>
+                <div class="icons">
+                    <abbr title="Github Link"><a href="#" class="icon">
+                        <i class="fab fa-github"></i>
+                    </a></abbr>
+                    <abbr title="Demo here"><a href="#" class="icon">
+                        <i class="fas fa-2x fa-globe" aria-hidden="true"></i>
+                    </a></abbr> 
+                </div>
+            </div>
+        </div> -->
+    </div>
+</section>
+
+
+
+<!-- my portfolio end -->
+
+
+
+
+
+<!-- Contact Me Section-->
+
+
+
+<section class="container contact reveal" id="contact">
+    <h2 class="section__title section__title--work bg-text stat-title">My Contact</h2>
+<!-- <section class="container contact" id="contact">
+    <div class="contact-container">
+        <div class="main-title">
+            <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
+        </div> -->
+        <div class="contact-content-con" >
+            <div class="left-contact contact-common">
+                <h2>Contact me here</h2>
+                <p style="font-size: 1rem;">
+                    Reach out to me, 24/7
+                </p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Location</span>
+                        </div>
+                        <p>
+                            : Uttar Pradesh, India
+                        </p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon">
+                            <i class="fas fa-envelope"></i>
+                            <span>Email</span>
+                        </div>
+                        <p>
+                            <!-- <span>: mohitjais312@gmail.com</span> -->
+                            <abbr title="Click-Here-To-Mail"><a href="mailto:" style="color: rgb(181, 171, 171); text-decoration: none;" target="_blank">mohitjais312@gmail.com</a></abbr>
+                        </p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon">
+                            <i class="fas fa-user-graduate"></i>
+                            <span>Education</span>
+                        </div>
+                        <p>
+                            <span>: Rajkiya Engineering College, Sonbhadra</span>
+                        </p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon">
+                            <i class="fas fa-user-graduate"></i>
+                            <span>Mobile Number</span>
+                        </div>
+                        <p>
+                            <!-- <span>6388782419</span> -->
+                            <abbr title="Click-Here-To-Call"><a href="tel:6388782419" style="color: rgb(181, 171, 171); text-decoration: none;" target="_blank">+91 6388-782-419</a></abbr>
+                        </p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon">
+                            <i class="fas fa-globe-africa"></i>
+                            <span>Languages</span>
+                        </div>
+                        <p>
+                            <span>: English, Hindi</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+                <!-- <div class="contact-icons">
+                    <div class="contact-icon">
+                        <a href="www.facebook.com" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div> -->
+            <div class="right-contact contact-common reveal">
+                <form class="contact-form" action="https://formsubmit.co/611944b6fc3503efbcf7d9bc189a310c" method="POST">
+                    <div class="input-control">
+                        <input type="text" name="yourName" required placeholder="YOUR NAME" id="yourName"><br><br>
+                        <input type="email" name="yourEmail" id="yourEmail" required placeholder="YOUR EMAIL">
+                        <input type="hidden" name="_cc" value="mohitjaiswal983@gmail.com">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_autoresponse" value="Thank you for contact">
+                    </div>
+                    <div class="input-control">
+                        <input type="text" name="yourSubject" id="yourSubject" required placeholder="ENTER SUBJECT">
+                    </div>
+                    <div class="input-control">
+                        <textarea name="yourMessage" id="yourMessage" cols="15" rows="8" placeholder="Message Here..."></textarea>
+                    </div>
+                    <div class="submit-btn">
+                        <a href="" class="main-btn">
+                            <button class="btn-text main-submit">Submit</button>
+                            <!-- <button type="submit">Submit</button> -->
+                            <span class="btn-icon"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- end of contact section  -->
+
+
+<button onclick="topFunction()" id="top--myBtn" title="Go to top">Top</button>
+
+<!-- footer -->
+<footer class="footer">
+    <!-- <a href="#" class="footer__link">Mohitjais.dev</a> -->
+    
+    <ul class="social-list">
+        <abbr title="LinkedIn"><li class="social-list__item"><a href="https://www.linkedin.com/in/mohit-jaiswal-a74725175/" class="social-list__link" target="_blank" >
+            <i class="fa-brands fa-linkedin-in"></i>
+        </li></abbr>
+        <abbr title="Github"><li class="social-list__item"><a href="https://github.com/mohit421" class="social-list__link" target="_blank" >
+            <i class="fa-brands fa-github"></i></a>
+        </li></abbr>
+        <abbr title="Instagram"><li class="social-list__item"><a href="https://www.instagram.com/datascience312/" class="social-list__link" target="_blank" >
+            <i class="fa-brands fa-instagram"></i>
+        </li></abbr>
+        <abbr title="Whatsapp"><li class="social-list__item"><a href="https://wa.me/6388782419" class="social-list__link" target="_blank" >
+            <i class="fa-brands fa-whatsapp"></i>
+        </li></abbr>
+        <abbr title="Telegram"><li class="social-list__item"><a href="https://telegram.me/mohitjais312" class="social-list__link" target="_blank" >
+            <i class="fa-brands fa-telegram"></i>
+        </li></abbr>
+    </ul>
+    <br>
+    <p class="copyright">Made with ❤ by Mohit.</p>
+</footer>
+
+
+<!-- end of footer -->
+
+
+
+
+
+
+<!-- Javascript -->
+
+<script src="js/index.js"></script>
+
+<!-- <script src="https://smtpjs.com/v3/smtp.js">
+</script>
+<script>
+    function sendEmail(){
+        Email.send({
+            SecureToken:"00c99098-b5c3-4850-a65a-1332c9889fe5",
+            To : "mohitjais312@gmail.com",
+            From : document.getElementById("yourEmail").value,
+            Subject : "This is the subject",
+            Body : "Name: " + document.getElementById("yourName").value
+                + "<br> Email: " + document.getElementById("yourEmail").value
+                + "<br> Subject: " + document.getElementById("yourSubject").value
+                + "<br> Message: " + document.getElementById("yourMessage").value
+        }).then(
+        message => alert(message)
+        );
+    }
+</script> -->
+
+<!-- jQuery Plugin -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+
+<!-- Preloader -->
+<script type="text/javascript">
+    //<![CDATA[
+        setTimeout(function(){        
+        $('#preloader').fadeOut();
+        $('.preloader_img').delay(150).fadeOut('slow'); 
+    }, 5500);
+    //]]>
+</script>
+
+</body>
+</html>
+
+
+
+<!-- E1A30AC5D9129D7A37D4EA75FDBDFC88B7C2B93E8AC755B7CC51AD68C70D7B3DDB50A479F69844BF83A74C45A2A84334 -->
+
+
+<!-- 219D22E2AB041D6014518EF249535E269C3A -->
