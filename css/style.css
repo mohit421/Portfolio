@@ -13,7 +13,7 @@
 #status {
 	width:300px;
 	height:200px;
-	position:relative;
+	position:absolute;
 	left:50%; /* centers the loading animation horizontally one the screen */
 	top:50%; /* centers the loading animation vertically one the screen */
 	background-image:url(/img/status6.gif?); /* path to your loading animation */
@@ -328,7 +328,7 @@ header .logo{
   width:60px;
   height:40px;
   margin:0 0 0 -30px;
-  position:absolute;
+  position:relative;
   left:50%;
   bottom:0px;
   -webkit-animation: arrow 0.5s 1s infinite ease-out alternate;
