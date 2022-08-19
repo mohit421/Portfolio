@@ -13,7 +13,7 @@
 #status {
 	width:300px;
 	height:200px;
-	position:absolute;
+	position:relative;
 	left:50%; /* centers the loading animation horizontally one the screen */
 	top:50%; /* centers the loading animation vertically one the screen */
 	background-image:url(/img/status6.gif?); /* path to your loading animation */
