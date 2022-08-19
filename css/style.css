@@ -1,3 +1,30 @@
+/* preloader */
+
+#preloader {
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:var(--clr-light); /* change if the mask should have another color then white */
+	z-index: 999999; /* makes sure it stays on top */
+}
+
+#status {
+	width:300px;
+	height:200px;
+	position:absolute;
+	left:50%; /* centers the loading animation horizontally one the screen */
+	top:50%; /* centers the loading animation vertically one the screen */
+	background-image:url(/img/status6.gif); /* path to your loading animation */
+	background-repeat:no-repeat;
+	background-position:center;
+ 
+	margin:-100px 0 0 -100px; /* is width and height divided by two */
+}
+
+
+
 *,
 *::before,
 *::after {
@@ -87,6 +114,7 @@ body{
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
     line-height: 1.6;
+    overflow: hidden;
 }
 
 section{
@@ -371,30 +399,7 @@ header .logo{
 
 
 
-/* preloader */
 
-#preloader {
-	position: fixed;
-	top:0;
-	left:0;
-	right:0;
-	bottom:0;
-	background-color:var(--clr-light); /* change if the mask should have another color then white */
-	z-index:99; /* makes sure it stays on top */
-}
-
-#status {
-	width:300px;
-	height:200px;
-	position:absolute;
-	left:50%; /* centers the loading animation horizontally one the screen */
-	top:50%; /* centers the loading animation vertically one the screen */
-	background-image:url(/img/status6.gif); /* path to your loading animation */
-	background-repeat:no-repeat;
-	background-position:center;
- 
-	margin:-100px 0 0 -100px; /* is width and height divided by two */
-}
 
 /* reveal */
 
